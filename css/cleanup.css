@@ -1,1 +1,23 @@
 /* write your override styles here */
+/* Hide tag-1 only when it's inside #wall */
+#wall .tag-1 {
+    display: none;
+  }
+  
+  /* Hide tag-2 only when it's inside .building */
+  .building .tag-2 {
+    display: none;
+  }
+  
+  /* Hide tag-3 only when it's inside #cityscape */
+  #cityscape .tag-3 {
+    display: none;
+  }
+  
+  /* Hide all tags inside .graffiti-container */
+  .graffiti-container .tag-1,
+  .graffiti-container .tag-2,
+  .graffiti-container .tag-3 {
+    display: none;
+  }
+  
